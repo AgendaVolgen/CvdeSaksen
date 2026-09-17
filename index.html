@@ -2,10 +2,101 @@
 <html lang="nl">
 <head>
   <meta charset="utf-8">
-  <title>Agenda de Saksen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agenda · Carnavalsvereniging de Saksen</title>
+  <style>
+    :root {
+      --navy: #2a1540;
+      --gold: #d4a017;
+      --cream: #fbf6ea;
+      --ink: #22182b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top right, #6b2d6b 0%, transparent 40%),
+        linear-gradient(180deg, #2a1540 0%, #4a1f4e 45%, #2a1540 100%);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 72px; }
+    header { text-align: center; color: #fff; margin-bottom: 28px; }
+    .badge {
+      display: inline-block;
+      letter-spacing: .18em;
+      font-family: system-ui, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    h1 { font-size: clamp(32px, 6vw, 48px); margin: 0 0 8px; font-weight: 700; }
+    .sub { font-family: system-ui, sans-serif; opacity: .85; margin: 0; }
+    .card {
+      background: var(--cream);
+      border-radius: 22px;
+      padding: 28px 26px;
+      box-shadow: 0 24px 50px rgba(0,0,0,.25);
+    }
+    h2 { font-size: 22px; margin: 0 0 10px; }
+    p { font-family: system-ui, sans-serif; line-height: 1.55; margin: 0 0 14px; }
+    .btn {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      font-family: system-ui, sans-serif;
+      font-weight: 700;
+      padding: 12px 18px;
+      border-radius: 999px;
+      margin: 6px 8px 16px 0;
+    }
+    .btn.gold { background: var(--gold); color: #2a1540; }
+    code {
+      display: block;
+      background: #fff;
+      border: 1px solid #ead9b0;
+      border-radius: 12px;
+      padding: 12px;
+      font-size: 13px;
+      word-break: break-all;
+      margin: 0 0 16px;
+    }
+    ol { font-family: system-ui, sans-serif; padding-left: 20px; margin: 0; }
+    li { margin-bottom: 8px; }
+    footer {
+      text-align: center;
+      color: rgba(255,255,255,.7);
+      font-family: system-ui, sans-serif;
+      font-size: 13px;
+      margin-top: 22px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Agenda de Saksen</h1>
-  <p><a href="agenda.ics">agenda.ics</a></p>
+  <div class="wrap">
+    <header>
+      <div class="badge">Sassenheim</div>
+      <h1>de Saksen</h1>
+      <p class="sub">Agenda van Carnavalsvereniging de Saksen</p>
+    </header>
+    <section class="card">
+      <h2>Agenda volgen</h2>
+      <p>Voeg de kalender één keer toe. Nieuwe activiteiten verschijnen daarna automatisch in Google Agenda, Outlook of Apple Agenda.</p>
+      <a class="btn gold" href="agenda.ics">Kalenderbestand openen</a>
+      <a class="btn" href="https://calendar.google.com/calendar/r?cid=https://agendavolgen.github.io/CvdeSaksen/agenda.ics">Toevoegen in Google Agenda</a>
+      <p>Of plak deze link bij “agenda via URL”:</p>
+      <code>https://agendavolgen.github.io/CvdeSaksen/agenda.ics</code>
+      <ol>
+        <li><strong>Google Agenda:</strong> andere agenda’s → + → Via URL</li>
+        <li><strong>Outlook:</strong> Agenda toevoegen → Abonneren via internet</li>
+        <li><strong>iPhone:</strong> Instellingen → Agenda → Accounts → Anders → Abonneer op agenda</li>
+      </ol>
+    </section>
+    <footer>Carnavalsvereniging de Saksen · Sassenheim</footer>
+  </div>
 </body>
 </html>
