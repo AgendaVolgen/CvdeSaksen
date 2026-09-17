@@ -27,150 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:5d562c6f-044d-45e3-a95a-0b20d696d63d@agenda.lokaal
-DTSTAMP:20260917T171103Z
-LAST-MODIFIED:20260917T171103Z
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Oktoberfest am Sassem
-DTSTART;TZID=Europe/Amsterdam:20261010T203000
-DTEND;TZID=Europe/Amsterdam:20261011T010000
-LOCATION:De Tol\, Hoofdstraat 147 Sassenheim
-DESCRIPTION:Een feestelijke avond vol livemuziek van Adest Brass\, Leidensc
- haft Kapelle\, Keine Ahnung\, Überwald Musikanten\, Flierefluiters en de 
- Splash! Drive-in show.\nOrganisator: Adest Musica en c.v. de Saksen
-URL:https://oktoberfestamsassem.nl
-END:VEVENT
-BEGIN:VEVENT
-UID:45f0d170-441c-49bd-9a82-549125591718@agenda.lokaal
-DTSTAMP:20260917T171742Z
-LAST-MODIFIED:20260917T171742Z
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Tulppop 2027
-DTSTART;TZID=Europe/Amsterdam:20270327T203000
-DTEND;TZID=Europe/Amsterdam:20270327T235900
-LOCATION:Sporthal De Tulp\, Jacoba van Beierenweg 118A\, Voorhout 2215KZ
-URL:https://l.instagram.com/?u=http%3A%2F%2Fwww.tulppop.nl%2F%3Futm_source%
- 3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAcGRvZg
- JleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaexCYkdoyK0paYed4na
- l-KiEr54Tbw4OUCVEC0apdoIoF2cUDdzun1LGCHscQ_aem_VFrs4TnuL1DR2FI3n5wTjg&e=AU
- D8EeP0tcnSyy6KkhbPxhgRCwO2EGJuBsBXDusZMzhROhNAGNy86r9bNiebpx2HuyOLARlicecG
- NMgR42NElSdpgo0AbJLGJUsPDDSSaFkevgz3QH3yuQHU9YKVWFDNImRbVQTrcODr9MlqX4JznD
- 6AM4vp
-END:VEVENT
-BEGIN:VEVENT
-UID:a1fb14ce-825c-426e-9cab-a6cd926482bc@agenda.lokaal
-DTSTAMP:20260917T182747Z
-LAST-MODIFIED:20260917T182747Z
-SEQUENCE:5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht Noordwijkerhout
-DTSTART;TZID=Europe/Amsterdam:20270206T131100
-DTEND;TZID=Europe/Amsterdam:20270206T144500
-LOCATION:Noordwijkerhout
-DESCRIPTION:De route van de carnavalsoptocht in Noordwijkerhout start bij D
- e Brink en eindigt bij de tijdelijke Schelft.\n\nRoute: De Brink\, Herenwe
- g\, Victoriberg\, Kerkeland\, Dorpsstraat\, Steeg\, Havenstraat\, Koningin
- neweg\, Viaductweg\, Wildlaan\, Fazantlaan naar eindpunt Meeuwenlaan nabij
-  de tijdelijke Schelft.\nOrganisator: CV De Kaninefaaten
-URL:https://kaninefaaten.nl
-END:VEVENT
-BEGIN:VEVENT
-UID:16f9ba74-c06e-4305-94a8-5d4ae63df240@agenda.lokaal
-DTSTAMP:20260917T182729Z
-LAST-MODIFIED:20260917T182729Z
-SEQUENCE:5
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Kinderoptocht Noordwijkerhout
-DTSTART;TZID=Europe/Amsterdam:20270206T101100
-DTEND;TZID=Europe/Amsterdam:20270206T121500
-LOCATION:Noordwijkerhout
-DESCRIPTION:De kleurrijke kinderoptocht start in Noordwijkerhout om 10.11 o
- p De Brink en eindigt bij Café Van der Geest.\nOrganisator: CV De Kaninef
- aaten
-URL:https://kaninefaaten.nl
-END:VEVENT
-BEGIN:VEVENT
-UID:60525b04-0fd4-4deb-af66-9f679fd73285@agenda.lokaal
-DTSTAMP:20260917T182812Z
-LAST-MODIFIED:20260917T182812Z
-SEQUENCE:6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht Sassenheim 2027 - CV De Saksen
-DTSTART;TZID=Europe/Amsterdam:20270206T150000
-DTEND;TZID=Europe/Amsterdam:20270206T163000
-LOCATION:Sassenheim
-DESCRIPTION:JP. Gouverneurlaan – Parklaan – Hoofdstraat -Teylingerlaan 
- – Westerstraat – Hortuslaan – Hoofdstraat – JP Gouverneurlaan – 
- Residentie ‘t Onderdak.\nOrganisator: CV De Saksen
-URL:https://www.desaksen.nl
-END:VEVENT
-BEGIN:VEVENT
-UID:2ffd51ff-8908-4cc2-ac46-37b6adbaa992@agenda.lokaal
-DTSTAMP:20260917T182739Z
-LAST-MODIFIED:20260917T182739Z
-SEQUENCE:6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht Lisse
-DTSTART;TZID=Europe/Amsterdam:20270206T130000
-DTEND;TZID=Europe/Amsterdam:20270206T150000
-LOCATION:Lisse
-DESCRIPTION:Route: Start en finish bij Grand Café Cineac (Floralis). De op
- tocht zal door het centrum van Lisse rijden.\nOrganisator: CV De Gaapstokk
- en
-URL:https://www.gaapstokken.nl
-END:VEVENT
-BEGIN:VEVENT
-UID:dce43692-9455-4c06-86a0-9cd8e9d89f82@agenda.lokaal
-DTSTAMP:20260917T182756Z
-LAST-MODIFIED:20260917T182756Z
-SEQUENCE:6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht Voorhout 2027 - CV De Bokken
-DTSTART;TZID=Europe/Amsterdam:20270206T140000
-DTEND;TZID=Europe/Amsterdam:20270206T153000
-LOCATION:Voorhout
-DESCRIPTION:Route: Pr. Bernhardstraat – Herenstraat – Prof. Nolenslaan 
- – Dr. Schaepmanlaan – Ter Haar Romenystraat – Boerhaavestraat – He
- renstraat –  Beatrixstraat – Julianalaan – Emmastraat – Oranje Nas
- saulaan en terug naar de Prins Bernhardstraat.\n\nNa de optocht is er een 
- optochtfeest in de Bokkenfeesttent op Sportlaan 10 in Voorhout. Na de opto
- cht is er een optochtfeest in de Bokkenfeesttent op Sportlaan 10 in Voorho
- ut.\nOrganisator: CV De Bokken
-URL:https://www.cvdebokken.nl
-END:VEVENT
-BEGIN:VEVENT
-UID:37803180-6cda-4554-a54a-dff6a36c3000@agenda.lokaal
-DTSTAMP:20260917T183053Z
-LAST-MODIFIED:20260917T183053Z
-SEQUENCE:2
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht De Zilk 2027 - CV de Duinknijnen
-DTSTART;TZID=Europe/Amsterdam:20270207T131100
-DTEND;TZID=Europe/Amsterdam:20270207T144500
-DESCRIPTION:LET OP! De route is anders dan andere jaren. De feestwagens wor
- den opgesteld op Breeland. De start is op de Sportlaan-Breeland. Vanuit Br
- eeland richting Vogelenveld\, Haasveld\, Zilkerduinweg (niet de ventweg)\,
-  rechtsaf Beukenlaan\, rechtsaf Hafkenscheidtlaan\, Goudenregenstraat\, li
- nksaf ventweg Hoogduinweg op\, Regenvlietweg\, bij ‘t pleintje van Ko en
-  Nijntje linksaf Wassenaarseweg-Zilkerduinweg. Hier is de finish van de ro
- ute van de Carnavalsoptocht in de Zilk.\n\nOm de optocht veilig te houden 
- zijn er wegafsluitingen. Tussen 12.00 en 16.00 uur is verkeer in en uit De
-  Zilk niet mogelijk. Dit is de grootste optocht van de Bollenstreek\, maar
-  ook een van de grootste optochten van boven de rivieren.\nOrganisator: CV
-  de Duinknijnen
-URL:https://www.duinknijnen.nl
-END:VEVENT
-BEGIN:VEVENT
 UID:c7bf036d-1fac-4e0a-8a5f-a33cded3ac2d@agenda.lokaal
 DTSTAMP:20260917T182613Z
 LAST-MODIFIED:20260917T182613Z
@@ -199,5 +55,158 @@ TRANSP:OPAQUE
 SUMMARY:test voor activiteit
 DTSTART;TZID=Europe/Amsterdam:20260918T230000
 DTEND;TZID=Europe/Amsterdam:20260918T231500
+END:VEVENT
+BEGIN:VEVENT
+UID:5d562c6f-044d-45e3-a95a-0b20d696d63d@agenda.lokaal
+DTSTAMP:20260917T171103Z
+LAST-MODIFIED:20260917T171103Z
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Oktoberfest am Sassem
+DTSTART;TZID=Europe/Amsterdam:20261010T203000
+DTEND;TZID=Europe/Amsterdam:20261011T010000
+LOCATION:De Tol\, Hoofdstraat 147 Sassenheim
+DESCRIPTION:Een feestelijke avond vol livemuziek van Adest Brass\, Leidensc
+ haft Kapelle\, Keine Ahnung\, Überwald Musikanten\, Flierefluiters en de 
+ Splash! Drive-in show.\nOrganisator: Adest Musica en c.v. de Saksen
+URL:https://oktoberfestamsassem.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:16f9ba74-c06e-4305-94a8-5d4ae63df240@agenda.lokaal
+DTSTAMP:20260917T182729Z
+LAST-MODIFIED:20260917T182729Z
+SEQUENCE:5
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Kinderoptocht Noordwijkerhout
+DTSTART;TZID=Europe/Amsterdam:20270206T101100
+DTEND;TZID=Europe/Amsterdam:20270206T121500
+LOCATION:Noordwijkerhout
+DESCRIPTION:De kleurrijke kinderoptocht start in Noordwijkerhout om 10.11 o
+ p De Brink en eindigt bij Café Van der Geest.\nOrganisator: CV De Kaninef
+ aaten
+URL:https://kaninefaaten.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:2ffd51ff-8908-4cc2-ac46-37b6adbaa992@agenda.lokaal
+DTSTAMP:20260917T182739Z
+LAST-MODIFIED:20260917T182739Z
+SEQUENCE:6
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Carnavalsoptocht Lisse
+DTSTART;TZID=Europe/Amsterdam:20270206T130000
+DTEND;TZID=Europe/Amsterdam:20270206T150000
+LOCATION:Lisse
+DESCRIPTION:Route: Start en finish bij Grand Café Cineac (Floralis). De op
+ tocht zal door het centrum van Lisse rijden.\nOrganisator: CV De Gaapstokk
+ en
+URL:https://www.gaapstokken.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:a1fb14ce-825c-426e-9cab-a6cd926482bc@agenda.lokaal
+DTSTAMP:20260917T182747Z
+LAST-MODIFIED:20260917T182747Z
+SEQUENCE:5
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Carnavalsoptocht Noordwijkerhout
+DTSTART;TZID=Europe/Amsterdam:20270206T131100
+DTEND;TZID=Europe/Amsterdam:20270206T144500
+LOCATION:Noordwijkerhout
+DESCRIPTION:De route van de carnavalsoptocht in Noordwijkerhout start bij D
+ e Brink en eindigt bij de tijdelijke Schelft.\n\nRoute: De Brink\, Herenwe
+ g\, Victoriberg\, Kerkeland\, Dorpsstraat\, Steeg\, Havenstraat\, Koningin
+ neweg\, Viaductweg\, Wildlaan\, Fazantlaan naar eindpunt Meeuwenlaan nabij
+  de tijdelijke Schelft.\nOrganisator: CV De Kaninefaaten
+URL:https://kaninefaaten.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:dce43692-9455-4c06-86a0-9cd8e9d89f82@agenda.lokaal
+DTSTAMP:20260917T182756Z
+LAST-MODIFIED:20260917T182756Z
+SEQUENCE:6
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Carnavalsoptocht Voorhout 2027 - CV De Bokken
+DTSTART;TZID=Europe/Amsterdam:20270206T140000
+DTEND;TZID=Europe/Amsterdam:20270206T153000
+LOCATION:Voorhout
+DESCRIPTION:Route: Pr. Bernhardstraat – Herenstraat – Prof. Nolenslaan 
+ – Dr. Schaepmanlaan – Ter Haar Romenystraat – Boerhaavestraat – He
+ renstraat –  Beatrixstraat – Julianalaan – Emmastraat – Oranje Nas
+ saulaan en terug naar de Prins Bernhardstraat.\n\nNa de optocht is er een 
+ optochtfeest in de Bokkenfeesttent op Sportlaan 10 in Voorhout. Na de opto
+ cht is er een optochtfeest in de Bokkenfeesttent op Sportlaan 10 in Voorho
+ ut.\nOrganisator: CV De Bokken
+URL:https://www.cvdebokken.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:60525b04-0fd4-4deb-af66-9f679fd73285@agenda.lokaal
+DTSTAMP:20260917T182812Z
+LAST-MODIFIED:20260917T182812Z
+SEQUENCE:6
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Carnavalsoptocht Sassenheim 2027 - CV De Saksen
+DTSTART;TZID=Europe/Amsterdam:20270206T150000
+DTEND;TZID=Europe/Amsterdam:20270206T163000
+LOCATION:Sassenheim
+DESCRIPTION:JP. Gouverneurlaan – Parklaan – Hoofdstraat -Teylingerlaan 
+ – Westerstraat – Hortuslaan – Hoofdstraat – JP Gouverneurlaan – 
+ Residentie ‘t Onderdak.\nOrganisator: CV De Saksen
+URL:https://www.desaksen.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:37803180-6cda-4554-a54a-dff6a36c3000@agenda.lokaal
+DTSTAMP:20260917T183053Z
+LAST-MODIFIED:20260917T183053Z
+SEQUENCE:2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Carnavalsoptocht De Zilk 2027 - CV de Duinknijnen
+DTSTART;TZID=Europe/Amsterdam:20270207T131100
+DTEND;TZID=Europe/Amsterdam:20270207T144500
+DESCRIPTION:LET OP! De route is anders dan andere jaren. De feestwagens wor
+ den opgesteld op Breeland. De start is op de Sportlaan-Breeland. Vanuit Br
+ eeland richting Vogelenveld\, Haasveld\, Zilkerduinweg (niet de ventweg)\,
+  rechtsaf Beukenlaan\, rechtsaf Hafkenscheidtlaan\, Goudenregenstraat\, li
+ nksaf ventweg Hoogduinweg op\, Regenvlietweg\, bij ‘t pleintje van Ko en
+  Nijntje linksaf Wassenaarseweg-Zilkerduinweg. Hier is de finish van de ro
+ ute van de Carnavalsoptocht in de Zilk.\n\nOm de optocht veilig te houden 
+ zijn er wegafsluitingen. Tussen 12.00 en 16.00 uur is verkeer in en uit De
+  Zilk niet mogelijk. Dit is de grootste optocht van de Bollenstreek\, maar
+  ook een van de grootste optochten van boven de rivieren.\nOrganisator: CV
+  de Duinknijnen
+URL:https://www.duinknijnen.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:45f0d170-441c-49bd-9a82-549125591718@agenda.lokaal
+DTSTAMP:20260917T203513Z
+LAST-MODIFIED:20260917T203513Z
+SEQUENCE:4
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Tulppop 2027
+DTSTART;TZID=Europe/Amsterdam:20270327T203000
+DTEND;TZID=Europe/Amsterdam:20270328T014500
+LOCATION:Sporthal De Tulp\, Jacoba van Beierenweg 118A\, Voorhout 2215KZ
+DESCRIPTION:Organisator: Tulppop
+URL:https://www.tulppop.nl
+END:VEVENT
+BEGIN:VEVENT
+UID:bc784708-b557-4653-93e1-f0672a6804db@agenda.lokaal
+DTSTAMP:20260917T203606Z
+LAST-MODIFIED:20260917T203606Z
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Tulppop 2027
+DTSTART;TZID=Europe/Amsterdam:20270328T203000
+DTEND;TZID=Europe/Amsterdam:20270329T014500
+LOCATION:Sporthal De Tulp\, Jacoba van Beierenweg 118A\, Voorhout 2215KZ
+DESCRIPTION:Organisator: Tulppop
+URL:https://www.tulppop.nl
 END:VEVENT
 END:VCALENDAR
