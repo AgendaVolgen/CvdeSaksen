@@ -27,25 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:c7bf036d-1fac-4e0a-8a5f-a33cded3ac2d@agenda.lokaal
-DTSTAMP:20260917T182613Z
-LAST-MODIFIED:20260917T182613Z
-SEQUENCE:2
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-SUMMARY:Verlichte Carnavalsoptocht Noordwijk
-DTSTART;TZID=Europe/Amsterdam:20260917T190000
-DTEND;TZID=Europe/Amsterdam:20260917T213000
-LOCATION:Noordwijk
-DESCRIPTION:De enige verlichte optocht van de Bollenstreek is in Noordwijk!
-  Verlichte carnavalswagens en loopgroepen vormen een bonte stoet door Noor
- dwijk-Binnen.\n\nRoute: Schiestraat (thv Peut - tankstation). Vervolgens g
- aat de route via Schiestraat - Heilige Geestweg - Van Limburg Stirumstraat
-  - Lindenhofstraat - Boekerslootlaan - Losplaatsweg - Achterzeeweg - Lijnb
- aanweg - Finish op de Weteringkade.\nOrganisator: CV De Noortukkers
-URL:https://denoortukkers.nl
-END:VEVENT
-BEGIN:VEVENT
 UID:7a985198-bd0e-4c3d-97e1-ff4c0d7e7e5e@agenda.lokaal
 DTSTAMP:20260917T201934Z
 LAST-MODIFIED:20260917T201934Z
@@ -88,6 +69,59 @@ DESCRIPTION:Stichting Winterfeest is een organisatie die elk jaar een groot
  n die niet altijd in de gelegenheid zijn om een groot feest te vieren. Ons
   doel is om deze mensen een onvergetelijke dag te bezorgen waar ze gratis 
  van kunnen genieten.\nOrganisator: Stichting Winterfeest
+END:VEVENT
+BEGIN:VEVENT
+UID:5902cdce-c612-44aa-8fe4-e379d982ca84@agenda.lokaal
+DTSTAMP:20260917T210058Z
+LAST-MODIFIED:20260917T210058Z
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Winterfeest 2027 (kopie)
+DTSTART;TZID=Europe/Amsterdam:20270129T183000
+DTEND;TZID=Europe/Amsterdam:20270129T235900
+LOCATION:Noordwijkerhout
+DESCRIPTION:Stichting Winterfeest is een organisatie die elk jaar een groot
+ s carnavalsfeest organiseert. Het evenement is speciaal bedoeld voor mense
+ n die niet altijd in de gelegenheid zijn om een groot feest te vieren. Ons
+  doel is om deze mensen een onvergetelijke dag te bezorgen waar ze gratis 
+ van kunnen genieten.\nOrganisator: Stichting Winterfeest
+END:VEVENT
+BEGIN:VEVENT
+UID:585ca23d-0b58-41d7-b2de-3527d6ffaffb@agenda.lokaal
+DTSTAMP:20260917T210054Z
+LAST-MODIFIED:20260917T210054Z
+SEQUENCE:1
+STATUS:CANCELLED
+TRANSP:TRANSPARENT
+SUMMARY:Winterfeest 2027 (kopie) (kopie)
+DTSTART;TZID=Europe/Amsterdam:20270129T183000
+DTEND;TZID=Europe/Amsterdam:20270129T235900
+LOCATION:Noordwijkerhout
+DESCRIPTION:Stichting Winterfeest is een organisatie die elk jaar een groot
+ s carnavalsfeest organiseert. Het evenement is speciaal bedoeld voor mense
+ n die niet altijd in de gelegenheid zijn om een groot feest te vieren. Ons
+  doel is om deze mensen een onvergetelijke dag te bezorgen waar ze gratis 
+ van kunnen genieten.\nOrganisator: Stichting Winterfeest
+END:VEVENT
+BEGIN:VEVENT
+UID:c7bf036d-1fac-4e0a-8a5f-a33cded3ac2d@agenda.lokaal
+DTSTAMP:20260917T212418Z
+LAST-MODIFIED:20260917T212418Z
+SEQUENCE:3
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Verlichte Carnavalsoptocht Noordwijk
+DTSTART;TZID=Europe/Amsterdam:20270205T190000
+DTEND;TZID=Europe/Amsterdam:20270205T203000
+LOCATION:Noordwijk
+DESCRIPTION:De enige verlichte optocht van de Bollenstreek is in Noordwijk!
+  Verlichte carnavalswagens en loopgroepen vormen een bonte stoet door Noor
+ dwijk-Binnen.\n\nRoute: Schiestraat (thv Peut - tankstation). Vervolgens g
+ aat de route via Schiestraat - Heilige Geestweg - Van Limburg Stirumstraat
+  - Lindenhofstraat - Boekerslootlaan - Losplaatsweg - Achterzeeweg - Lijnb
+ aanweg - Finish op de Weteringkade.\nOrganisator: CV De Noortukkers
+URL:https://denoortukkers.nl
 END:VEVENT
 BEGIN:VEVENT
 UID:16f9ba74-c06e-4305-94a8-5d4ae63df240@agenda.lokaal
@@ -141,12 +175,12 @@ URL:https://kaninefaaten.nl
 END:VEVENT
 BEGIN:VEVENT
 UID:dce43692-9455-4c06-86a0-9cd8e9d89f82@agenda.lokaal
-DTSTAMP:20260917T182756Z
-LAST-MODIFIED:20260917T182756Z
-SEQUENCE:6
+DTSTAMP:20260917T205946Z
+LAST-MODIFIED:20260917T205946Z
+SEQUENCE:7
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht Voorhout 2027 - CV De Bokken
+SUMMARY:Carnavalsoptocht Voorhout 2027
 DTSTART;TZID=Europe/Amsterdam:20270206T140000
 DTEND;TZID=Europe/Amsterdam:20270206T153000
 LOCATION:Voorhout
@@ -161,12 +195,12 @@ URL:https://www.cvdebokken.nl
 END:VEVENT
 BEGIN:VEVENT
 UID:60525b04-0fd4-4deb-af66-9f679fd73285@agenda.lokaal
-DTSTAMP:20260917T182812Z
-LAST-MODIFIED:20260917T182812Z
-SEQUENCE:6
+DTSTAMP:20260917T205940Z
+LAST-MODIFIED:20260917T205940Z
+SEQUENCE:7
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht Sassenheim 2027 - CV De Saksen
+SUMMARY:Carnavalsoptocht Sassenheim 2027
 DTSTART;TZID=Europe/Amsterdam:20270206T150000
 DTEND;TZID=Europe/Amsterdam:20270206T163000
 LOCATION:Sassenheim
@@ -177,14 +211,15 @@ URL:https://www.desaksen.nl
 END:VEVENT
 BEGIN:VEVENT
 UID:37803180-6cda-4554-a54a-dff6a36c3000@agenda.lokaal
-DTSTAMP:20260917T183053Z
-LAST-MODIFIED:20260917T183053Z
-SEQUENCE:2
+DTSTAMP:20260917T210025Z
+LAST-MODIFIED:20260917T210025Z
+SEQUENCE:4
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-SUMMARY:Carnavalsoptocht De Zilk 2027 - CV de Duinknijnen
+SUMMARY:Carnavalsoptocht De Zilk 2027
 DTSTART;TZID=Europe/Amsterdam:20270207T131100
 DTEND;TZID=Europe/Amsterdam:20270207T144500
+LOCATION:Zilk
 DESCRIPTION:LET OP! De route is anders dan andere jaren. De feestwagens wor
  den opgesteld op Breeland. De start is op de Sportlaan-Breeland. Vanuit Br
  eeland richting Vogelenveld\, Haasveld\, Zilkerduinweg (niet de ventweg)\,
