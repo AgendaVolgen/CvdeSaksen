@@ -73,6 +73,23 @@ DESCRIPTION:Een feestelijke avond vol livemuziek van Adest Brass\, Leidensc
 URL:https://oktoberfestamsassem.nl
 END:VEVENT
 BEGIN:VEVENT
+UID:22d1a8ad-af86-46b3-928a-b06d829ce2cc@agenda.lokaal
+DTSTAMP:20260917T205042Z
+LAST-MODIFIED:20260917T205042Z
+SEQUENCE:1
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+SUMMARY:Winterfeest 2027
+DTSTART;TZID=Europe/Amsterdam:20270129T183000
+DTEND;TZID=Europe/Amsterdam:20270129T235900
+LOCATION:Noordwijkerhout
+DESCRIPTION:Stichting Winterfeest is een organisatie die elk jaar een groot
+ s carnavalsfeest organiseert. Het evenement is speciaal bedoeld voor mense
+ n die niet altijd in de gelegenheid zijn om een groot feest te vieren. Ons
+  doel is om deze mensen een onvergetelijke dag te bezorgen waar ze gratis 
+ van kunnen genieten.\nOrganisator: Stichting Winterfeest
+END:VEVENT
+BEGIN:VEVENT
 UID:16f9ba74-c06e-4305-94a8-5d4ae63df240@agenda.lokaal
 DTSTAMP:20260917T182729Z
 LAST-MODIFIED:20260917T182729Z
