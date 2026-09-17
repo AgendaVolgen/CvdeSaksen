@@ -189,4 +189,15 @@ DESCRIPTION:De enige verlichte optocht van de Bollenstreek is in Noordwijk!
  aanweg - Finish op de Weteringkade.\nOrganisator: CV De Noortukkers
 URL:https://denoortukkers.nl
 END:VEVENT
+BEGIN:VEVENT
+UID:7a985198-bd0e-4c3d-97e1-ff4c0d7e7e5e@agenda.lokaal
+DTSTAMP:20260917T201934Z
+LAST-MODIFIED:20260917T201934Z
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:test voor activiteit
+DTSTART;TZID=Europe/Amsterdam:20260918T230000
+DTEND;TZID=Europe/Amsterdam:20260918T231500
+END:VEVENT
 END:VCALENDAR
