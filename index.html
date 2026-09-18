@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Agenda · Carnavalsvereniging de Saksen</title>
+  <title>Agenda volgen · de Saksen</title>
   <style>
     :root {
       --navy: #2a1540;
@@ -14,65 +14,76 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: system-ui, -apple-system, sans-serif;
       background:
         radial-gradient(circle at top right, #6b2d6b 0%, transparent 40%),
         linear-gradient(180deg, #2a1540 0%, #4a1f4e 45%, #2a1540 100%);
       color: var(--ink);
       min-height: 100vh;
     }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 72px; }
-    header { text-align: center; color: #fff; margin-bottom: 28px; }
+    .wrap { max-width: 740px; margin: 0 auto; padding: 36px 18px 72px; }
+    header { text-align: center; color: #fff; margin-bottom: 22px; }
     .badge {
       display: inline-block;
-      letter-spacing: .18em;
-      font-family: system-ui, sans-serif;
+      letter-spacing: .16em;
       font-size: 12px;
       font-weight: 700;
       color: var(--gold);
       text-transform: uppercase;
       margin-bottom: 10px;
     }
-    h1 { font-size: clamp(32px, 6vw, 48px); margin: 0 0 8px; font-weight: 700; }
-    .sub { font-family: system-ui, sans-serif; opacity: .85; margin: 0; }
+    h1 { font-family: Georgia, serif; font-size: clamp(32px, 7vw, 46px); margin: 0 0 8px; }
+    .sub { opacity: .88; margin: 0; font-size: 17px; }
     .card {
       background: var(--cream);
       border-radius: 22px;
-      padding: 28px 26px;
+      padding: 22px 20px 24px;
       box-shadow: 0 24px 50px rgba(0,0,0,.25);
+      margin-bottom: 16px;
     }
-    h2 { font-size: 22px; margin: 0 0 10px; }
-    p { font-family: system-ui, sans-serif; line-height: 1.55; margin: 0 0 14px; }
+    h2 { font-family: Georgia, serif; font-size: 24px; margin: 0 0 10px; }
+    h3 { margin: 18px 0 8px; font-size: 17px; }
+    p { line-height: 1.55; margin: 0 0 12px; font-size: 16px; }
     .btn {
       display: inline-block;
+      border: 0;
       background: var(--navy);
       color: #fff;
       text-decoration: none;
-      font-family: system-ui, sans-serif;
+      font: inherit;
       font-weight: 700;
-      padding: 12px 18px;
+      padding: 13px 18px;
       border-radius: 999px;
-      margin: 6px 8px 16px 0;
+      margin: 4px 8px 8px 0;
+      cursor: pointer;
     }
     .btn.gold { background: var(--gold); color: #2a1540; }
-    code {
+    .btn.wide { width: 100%; text-align: center; margin: 8px 0; }
+    code, .linkbox {
       display: block;
       background: #fff;
       border: 1px solid #ead9b0;
       border-radius: 12px;
       padding: 12px;
-      font-size: 13px;
+      font-size: 14px;
       word-break: break-all;
-      margin: 0 0 16px;
+      margin: 0 0 10px;
     }
-    ol { font-family: system-ui, sans-serif; padding-left: 20px; margin: 0; }
-    li { margin-bottom: 8px; }
+    ol { padding-left: 22px; margin: 0 0 8px; }
+    li { margin-bottom: 8px; line-height: 1.45; }
+    .note {
+      background: #fff7dc;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin: 12px 0 0;
+      font-size: 15px;
+    }
+    .ok { color: #157a4b; font-weight: 700; min-height: 1.2em; }
     footer {
       text-align: center;
       color: rgba(255,255,255,.7);
-      font-family: system-ui, sans-serif;
       font-size: 13px;
-      margin-top: 22px;
+      margin-top: 8px;
     }
   </style>
 </head>
@@ -83,20 +94,78 @@
       <h1>de Saksen</h1>
       <p class="sub">Agenda van Carnavalsvereniging de Saksen</p>
     </header>
+
     <section class="card">
-      <h2>Agenda volgen</h2>
-      <p>Voeg de kalender één keer toe. Nieuwe activiteiten verschijnen daarna automatisch in Google Agenda, Outlook of Apple Agenda.</p>
-      <a class="btn gold" href="agenda.ics">Kalenderbestand openen</a>
-      <a class="btn" href="https://calendar.google.com/calendar/r?cid=https://agendavolgen.github.io/CvdeSaksen/agenda.ics">Toevoegen in Google Agenda</a>
-      <p>Of plak deze link bij “agenda via URL”:</p>
-      <code>https://agendavolgen.github.io/CvdeSaksen/agenda.ics</code>
+      <h2>1. Kopieer eerst de link</h2>
+      <p>Deze link is de agenda. Die plak je straks in de agenda-app op je telefoon of computer.</p>
+      <div class="linkbox" id="calLink">https://agendavolgen.github.io/CvdeSaksen/agenda.ics</div>
+      <button class="btn gold wide" type="button" id="copyBtn">Link kopiëren</button>
+      <p class="ok" id="copyMsg"></p>
+    </section>
+
+    <section class="card">
+      <h2>2. Zet de agenda op je iPhone</h2>
+      <p>Niet de link in Safari openen. Doe dit via Instellingen:</p>
       <ol>
-        <li><strong>Google Agenda:</strong> andere agenda’s → + → Via URL</li>
-        <li><strong>Outlook:</strong> Agenda toevoegen → Abonneren via internet</li>
-        <li><strong>iPhone:</strong> Instellingen → Agenda → Accounts → Anders → Abonneer op agenda</li>
+        <li>Open <strong>Instellingen</strong></li>
+        <li>Tik op <strong>Apps</strong></li>
+        <li>Tik op <strong>Agenda</strong></li>
+        <li>Tik op <strong>Agenda-accounts</strong></li>
+        <li>Tik op <strong>Nieuw account</strong></li>
+        <li>Tik op <strong>Voeg ander account toe</strong></li>
+        <li>Tik op <strong>Agenda met abonnement</strong></li>
+        <li>Plak de gekopieerde link bij de server / URL</li>
+        <li>Tik op <strong>Volgende</strong> en daarna op <strong>Bewaar</strong></li>
+      </ol>
+      <p class="note">Op sommige iPhones staat er “Account toevoegen” of “Anders”. Kies dan die optie en daarna <strong>Agenda met abonnement</strong>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Android of computer</h2>
+      <h3>Google Agenda</h3>
+      <p>Het makkelijkst op een computer:</p>
+      <ol>
+        <li>Ga naar <a href="https://calendar.google.com">calendar.google.com</a> en log in</li>
+        <li>Links bij <strong>Andere agenda’s</strong> op het plusje <strong>+</strong></li>
+        <li>Kies <strong>Via URL</strong></li>
+        <li>Plak de gekopieerde link en voeg toe</li>
+      </ol>
+      <a class="btn" href="https://calendar.google.com/calendar/r?cid=https://agendavolgen.github.io/CvdeSaksen/agenda.ics">Open Google Agenda</a>
+      <p>Daarna staat de agenda ook in de Google Agenda-app op je telefoon.</p>
+      <h3>Outlook</h3>
+      <ol>
+        <li>Open Agenda</li>
+        <li><strong>Agenda toevoegen</strong></li>
+        <li><strong>Abonneren via internet</strong></li>
+        <li>Plak de gekopieerde link</li>
       </ol>
     </section>
+
+    <section class="card">
+      <h2>Wat je niet hoeft te doen</h2>
+      <p>Je hoeft geen bestand te downloaden of te mailen. Alleen de link hierboven abonneren is genoeg. Nieuwe activiteiten komen later vanzelf in je agenda.</p>
+      <p>Een bestand openen is iets anders: dan zet je de afspraken één keer op je telefoon. Wijzigingen komen dan <strong>niet</strong> automatisch mee. Dat is dus niet de bedoeling.</p>
+    </section>
+
     <footer>Carnavalsvereniging de Saksen · Sassenheim</footer>
   </div>
+  <script>
+    const link = document.getElementById("calLink").textContent.trim();
+    const btn = document.getElementById("copyBtn");
+    const msg = document.getElementById("copyMsg");
+    btn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(link);
+        msg.textContent = "Link gekopieerd. Ga nu naar stap 2.";
+      } catch {
+        const range = document.createRange();
+        range.selectNodeContents(document.getElementById("calLink"));
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        msg.textContent = "Selecteer de link hierboven en kies Kopieer.";
+      }
+    });
+  </script>
 </body>
 </html>
